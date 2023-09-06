@@ -1,11 +1,11 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 06/09/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    morango: real
    maca: real
    totalpeso: real
@@ -14,11 +14,11 @@ Var
    tvma: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
    escreval ("Digite quantos Kg de morango o cliente comprou: ")
    leia (morango)
-   escreval ("Digite quantos Kg de maçãs o cliente comprou: ")
+   escreval ("Digite quantos Kg de maÃ§Ã£s o cliente comprou: ")
    leia (maca)
 
    se (morango < 5) e (maca < 5) entao
@@ -28,30 +28,25 @@ Inicio
       totalapagar <- tvmo + tvma
       escreval ("Morango Kg: ", morango)
       escreval ("Valor a pagar morango: ", tvmo)
-      escreval ("Maçã Kg: ",maca)
-      escreval ("Valor a pagar Maçã: ", tvma)
+      escreval ("MaÃ§Ã£ Kg: ",maca)
+      escreval ("Valor a pagar MaÃ§Ã£: ", tvma)
       escreval ("Peso total: ", totalpeso)
       escreval ("Total a pagar: ", totalapagar)
 
-   Fimse
-
-   se (totalapagar > 25) entao
-      desconto <- totalapagar * 0.1
-      escreval ("Total a pagar: " desconto)
-   Fimse
-
-   se (morango > 5) e (maca > 5) entao
+   senao
       tvmo <- morango * 2.20
       tvma <- maca * 1.50
       totalpeso <- morango + maca
       totalapagar <- tvmo + tvma
       escreval ("Morango Kg: ", morango)
       escreval ("Valor a pagar morango: ", tvmo)
-      escreval ("Maçã Kg: ",maca)
-      escreval ("Valor a pagar Maçã: ", tvma)
+      escreval ("MaÃ§Ã£ Kg: ",maca)
+      escreval ("Valor a pagar MaÃ§Ã£: ", tvma)
       escreval ("Peso total: ", totalpeso)
       escreval ("Total a pagar: ", totalapagar)
+
    Fimse
+
 
    se (totalapagar > 25) entao
       totalapagar <- totalapagar - (totalapagar * 0.1)
@@ -59,5 +54,3 @@ Inicio
    Fimse
 
 Fimalgoritmo
-
-
