@@ -1,18 +1,18 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
+// Professor   : Carlos
+// DescriÃ§Ã£o   : Atividade 01
+// Autor(a)    : Kauan Santana Sandes
 // Data atual  : 05/09/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 
 valorA: inteiro
 valorB: inteiro
 valorC: inteiro
 valorAeB: inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
 escreval ("Digite Um Valor (1): ")
 leia (valorA)
@@ -28,9 +28,9 @@ valorAeB <- valorA + valorB
 // Resposta de Valores
 
 se (valorAeB > valorC) entao
-escreva (valorA,"+",valorB,"é maior quê: ", valorC)
+escreva (valorA,"+",valorB,"Ã© maior quÃª: ", valorC)
 senao
-escreva (valorA,"+",valorB,"não é maior quê: ", valorC)
+escreva (valorA,"+",valorB,"nÃ£o Ã© maior quÃª: ", valorC)
 
 Fimse
 
