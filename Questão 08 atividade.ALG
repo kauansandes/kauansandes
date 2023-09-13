@@ -1,11 +1,11 @@
 Algoritmo "Exercicio 08"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Carlos
-// Descrição   : Exercicio:08
+// DescriÃ§Ã£o   : Exercicio:08
 // Autor(a)    : K. Santana
-// Data atual  : 05/09/2023
+// Data atual  : 06/09/2023
 Var
-   //Variáveis
+   //VariÃ¡veis
    cor:caracter
    verdeValidacao:caracter
    azulValidacao:caracter
@@ -18,15 +18,15 @@ Var
 
 
 Inicio
-   //  Coleta dados do usuário
-   escreval("========= CONSULTA PREÇO =========")
+   //  Coleta dados do usuÃ¡rio
+   escreval("========= CONSULTA PREÃ‡O =========")
    escreval("VERDE - AZUL - AMARELO - VERMELHO")
 
    escreval("--- Digite a cor em CAIXA ALTA --")
    leia(cor)
    
    limpatela
-   escreval("========= CONSULTA PREÇO =========")
+   escreval("========= CONSULTA PREÃ‡O =========")
    escreval("VERDE - AZUL - AMARELHO - VERMELHO")
    escreval("")
    escreval("----------------------------------")
@@ -35,19 +35,19 @@ Inicio
    azulValidacao<-"AZUL"
    amareloValidacao<-"AMARELO"
    vermelhoValidacao<-"VERMELHO"
-   se cor = verdeValidacao então
-      escreval("O valor do CD é R$10,00")
-   senão
-      se cor = azulValidacao então
-         escreval("O valor do CD é R$20,00")
-      senão
-         se cor = amareloValidacao então
-            escreval("O valor do CD é R$30,00")
-         senão
-            se cor = vermelhoValidacao então
-               escreval("O valor do CD é R$40,00")
-            senão
-               escreval("==== COR IVÁLIDA =====")
+   se cor = verdeValidacao entÃ£o
+      escreval("O valor do CD Ã© R$10,00")
+   senÃ£o
+      se cor = azulValidacao entÃ£o
+         escreval("O valor do CD Ã© R$20,00")
+      senÃ£o
+         se cor = amareloValidacao entÃ£o
+            escreval("O valor do CD Ã© R$30,00")
+         senÃ£o
+            se cor = vermelhoValidacao entÃ£o
+               escreval("O valor do CD Ã© R$40,00")
+            senÃ£o
+               escreval("==== COR IVÃLIDA =====")
             Fimse
          Fimse
       Fimse
