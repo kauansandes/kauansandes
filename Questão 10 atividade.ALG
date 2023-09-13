@@ -1,7 +1,7 @@
 Algoritmo "Exercicio 10"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina  : [Linguagem e Lógica de Programação]
 // Professor   : Carlos
-// Descrição   : Exercicio:10
+// Descrição   : Questão 10
 // Autor(a)    : K. Santana
 // Data atual  : 13/09/2023
 Var
