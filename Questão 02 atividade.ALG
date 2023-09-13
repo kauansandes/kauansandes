@@ -1,7 +1,7 @@
 Algoritmo "semnome"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Carlos
-// Descrição   : Questão 2
+// Descrição   : Questão 02
 // Autor(a)    : K. Santana
 // Data atual  : 05/09/2023
 Var
