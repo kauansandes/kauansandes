@@ -3,7 +3,7 @@ Algoritmo "Exercicio 09"
 // Professor   : Carlos
 // Descrição   : Exercicio:09+
 // Autor(a)    : K. Santana
-// Data atual  : 05/09/2023
+// Data atual  : 13/09/2023
 Var
    //Variáveis
    valorTotalEmprestimo:real
