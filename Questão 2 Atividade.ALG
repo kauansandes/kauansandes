@@ -1,17 +1,17 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
+// Professor   : Carlo
+// DescriÃ§Ã£o   : QuestÃ£o 2
+// Autor(a)    : K. Santana
 // Data atual  : 05/09/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    nome: caracter
    sexo: caracter
    estadocivil: caracter
    temporelacionamento: caracter
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    escreval ("Digite seu nome: ")
    leia (nome)
    escreval ("Digite seu sexo: ")
