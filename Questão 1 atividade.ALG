@@ -2,7 +2,7 @@ Algoritmo "semnome"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Carlos
 // Descrição   : Atividade 01
-// Autor(a)    : Kauan Santana Sandes
+// Autor(a)    : K. Santana
 // Data atual  : 05/09/2023
 Var
 // Seção de Declarações das variáveis 
