@@ -1,11 +1,11 @@
 Algoritmo "Exercicio 05"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Carlos
-// DescriÁ„o   : Exercicio:05
+// Descri√ß√£o   : Exercicio:05
 // Autor(a)    : K. Santana
 // Data atual  : 05/09/2023
 Var
-   //Vari·veis
+   //Vari√°veis
    operacaoSoma:caracter
    operacaoDivisao:caracter
    operacaoMultiplicacao:caracter
@@ -19,12 +19,12 @@ Var
 
 
 Inicio
-   //  Coleta dados do usu·rio
+   //  Coleta dados do usu√°rio
    escreval(" === Calcula valor de A e B ===")
    escreval(" ")
    escreval("Digite o valor de A : ")
    leia(valorA)
-   escreval("Digite a operaÁ„o (+,-,*,/)")
+   escreval("Digite a opera√ß√£o (+,-,*,/)")
    leia(operador)
    escreval ("Digite valor de B: ")
    leia(valorB)
@@ -38,19 +38,19 @@ Inicio
 
 
    //Soma
-   se operador = operacaoSoma ent„o
+   se operador = operacaoSoma ent√£o
       valorResultado <- valorA+valorB
-   sen„o
+   sen√£o
 
       //Divide
-      se operador = operacaoDivisao ent„o
+      se operador = operacaoDivisao ent√£o
          valorResultado <- valorA/valorB
-      sen„o
+      sen√£o
 
          //Multiplica
-         se operador = operacaoMultiplicacao ent„o
+         se operador = operacaoMultiplicacao ent√£o
             valorResultado <- valorA*valorB
-         sen„o
+         sen√£o
 
             //Subtrai
             valorResultado <- valorA-valorB
@@ -61,7 +61,7 @@ Inicio
    escreval("====== VALOR DIGITADO  ======")
    escreval("A = ", valorA)
    escreval("B = ", valorB)
-   escreval("OperaÁ„o Escolhida = ", operador)
+   escreval("Opera√ß√£o Escolhida = ", operador)
    escreval("====== RESULTADO ======")
    escreval("A ",operador," B = ",valorResultado)
 
