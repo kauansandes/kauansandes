@@ -1,7 +1,7 @@
 Algoritmo "Exercicio 07"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina  : [Linguagem e Lógica de Programação]
 // Professor   : Carlos
-// Descrição   : Exercicio:06
+// Descrição   : Questão 06
 // Autor(a)    : K. Santana
 // Data atual  : 05/09/2023
 Var
