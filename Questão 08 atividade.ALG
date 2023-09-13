@@ -1,7 +1,7 @@
 Algoritmo "Exercicio 08"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina  : [Linguagem e Lógica de Programação]
 // Professor   : Carlos
-// Descrição   : Exercicio:08
+// Descrição   : Questão 08
 // Autor(a)    : K. Santana
 // Data atual  : 06/09/2023
 Var
