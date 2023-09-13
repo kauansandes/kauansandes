@@ -1,11 +1,11 @@
 Algoritmo "Exercicio 10"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Carlos
-// DescriÁ„o   : Exercicio:10
+// Descri√ß√£o   : Exercicio:10
 // Autor(a)    : K. Santana
-// Data atual  : 05/09/2023
+// Data atual  : 13/09/2023
 Var
-   //Vari·veis
+   //Vari√°veis
    tipoCombustivel:caracter
    quantidadeCombustivel:inteiro
    valorAlcool:real
@@ -22,19 +22,19 @@ Var
 
 
 Inicio
-   //  Coleta dados do usu·rio
+   //  Coleta dados do usu√°rio
    escreval("========= ABASTECIMENTO  =========")
-   escreval("  -- A = ¡LCOOL | G = GASOLINA --")
+   escreval("  -- A = √ÅLCOOL | G = GASOLINA --")
    escreval("  -- R$3,79 --  |  --  R$6,59  --")
 
-   escreval("QUAL O COMBUSTÕVEL?")
+   escreval("QUAL O COMBUST√çVEL?")
    leia(tipoCombustivel)
    escreval("QUANTOS LITROS?")
    leia(quantidadeCombustivel)
 
    limpatela
 
-   //AtribuiÁ„o
+   //Atribui√ß√£o
    gasolina<-"G"
    alcool<-"A"
    desconto<-0
@@ -45,72 +45,72 @@ Inicio
       escreval("============= RECIBO ==============")
    //Se for Gasolina
    //desconto de 3%
-   se (tipoCombustivel = gasolina)e(quantidadeCombustivel<=25) ent„o
+   se (tipoCombustivel = gasolina)e(quantidadeCombustivel<=25) ent√£o
       desconto<-0.03
       precoComDesconto<- valorGasolina -(valorGasolina*desconto)
       escreval("========= ABASTECIMENTO  =========")
-      escreval("  -- A = ¡LCOOL | G = GASOLINA --")
+      escreval("  -- A = √ÅLCOOL | G = GASOLINA --")
       escreval("  -- R$3,79 --  |  --  R$6,59  --")
-      escreval("TIPO DE COMBUSTÕVEL:",tipoCombustivel)
+      escreval("TIPO DE COMBUST√çVEL:",tipoCombustivel)
       escreval("")
       escreval("-----------------------------------")
-      escreval("obs: vocÍ recebeu um desconto de 3%")
+      escreval("obs: voc√™ recebeu um desconto de 3%")
       escreval("-----------------------------------")
       escreval("")
       escreval("QUANTIDADE:",quantidadeCombustivel," Litros x ",precoComDesconto)
       escreval("TOTAL A PAGAR R$",quantidadeCombustivel*precoComDesconto)
 
       //desconto de 5%
-   sen„o
-      se (tipoCombustivel = gasolina)e(quantidadeCombustivel>25) ent„o
+   sen√£o
+      se (tipoCombustivel = gasolina)e(quantidadeCombustivel>25) ent√£o
          desconto<-0.05
          precoComDesconto<- valorGasolina -(valorGasolina*desconto)
          escreval("========= ABASTECIMENTO  =========")
-         escreval("  -- A = ¡LCOOL | G = GASOLINA --")
+         escreval("  -- A = √ÅLCOOL | G = GASOLINA --")
          escreval("  -- R$3,79 --  |  --  R$6,59  --")
          escreval("")
-         escreval("TIPO DE COMBUSTÕVEL:",tipoCombustivel)
+         escreval("TIPO DE COMBUST√çVEL:",tipoCombustivel)
          escreval("-----------------------------------")
-         escreval("obs: vocÍ recebeu um desconto de 5%")
+         escreval("obs: voc√™ recebeu um desconto de 5%")
          escreval("-----------------------------------")
          escreval("")
          escreval("QUANTIDADE:",quantidadeCombustivel," Litros x ",precoComDesconto)
          escreval("TOTAL A PAGAR R$",quantidadeCombustivel*precoComDesconto)
-      sen„o
+      sen√£o
 
-         //Se for ¡lcool
+         //Se for √Ålcool
          //desconto de 2%
-         se (tipoCombustivel = alcool)e(quantidadeCombustivel<=25) ent„o
+         se (tipoCombustivel = alcool)e(quantidadeCombustivel<=25) ent√£o
             desconto<-0.02
             precoComDesconto<- valorAlcool -(valorAlcool*desconto)
             escreval("========= ABASTECIMENTO  =========")
-            escreval("  -- A = ¡LCOOL | G = GASOLINA --")
+            escreval("  -- A = √ÅLCOOL | G = GASOLINA --")
             escreval("  -- R$3,79 --  |  --  R$6,59  --")
             escreval("")
-            escreval("TIPO DE COMBUSTÕVEL:",tipoCombustivel)
+            escreval("TIPO DE COMBUST√çVEL:",tipoCombustivel)
             escreval("-----------------------------------")
-            escreval("obs: vocÍ recebeu um desconto de 2%")
+            escreval("obs: voc√™ recebeu um desconto de 2%")
             escreval("-----------------------------------")
             escreval("")
             escreval("QUANTIDADE:",quantidadeCombustivel," Litros x ",precoComDesconto)
             escreval("TOTAL A PAGAR R$",quantidadeCombustivel*precoComDesconto)
             //desconto de 4%
-         sen„o
-            se (tipoCombustivel = alcool)e(quantidadeCombustivel>25) ent„o
+         sen√£o
+            se (tipoCombustivel = alcool)e(quantidadeCombustivel>25) ent√£o
                desconto<-0.04
                precoComDesconto<- valorAlcool -(valorAlcool*desconto)
                escreval("========= ABASTECIMENTO  =========")
-               escreval("  -- A = ¡LCOOL | G = GASOLINA --")
+               escreval("  -- A = √ÅLCOOL | G = GASOLINA --")
                escreval("  -- R$3,79 --  |  --  R$6,59  --")
                escreval("")
-               escreval("TIPO DE COMBUSTÕVEL:",tipoCombustivel)
+               escreval("TIPO DE COMBUST√çVEL:",tipoCombustivel)
                escreval("-----------------------------------")
-               escreval("obs: vocÍ recebeu um desconto de 4%")
+               escreval("obs: voc√™ recebeu um desconto de 4%")
                escreval("-----------------------------------")
                escreval("")
                escreval("QUANTIDADE:",quantidadeCombustivel," Litros x ",precoComDesconto)
                escreval("TOTAL A PAGAR R$",quantidadeCombustivel*precoComDesconto)
-            sen„o
+            sen√£o
             Fimse
          Fimse
       Fimse
