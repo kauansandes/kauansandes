@@ -1,11 +1,11 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 06/09/2023
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
+// Professor   : Carlos
+// DescriÃ§Ã£o   : QuestÃ£o 03
+// Autor(a)    : K. Santana
+// Data atual  : 05/09/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    numA: inteiro
    numB: inteiro
    numC: inteiro
@@ -13,7 +13,7 @@ Var
    multiplicacao:inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    escreval ("Digite o primeiro numero: ")
    leia (numA)
    escreval ("Digite o segundo numero: ")
