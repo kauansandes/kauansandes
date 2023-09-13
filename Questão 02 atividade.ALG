@@ -1,6 +1,6 @@
 Algoritmo "semnome"
 // Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Carlo
+// Professor   : Carlos
 // Descrição   : Questão 2
 // Autor(a)    : K. Santana
 // Data atual  : 05/09/2023
