@@ -1,7 +1,7 @@
 Algoritmo "Exercicio 09"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina  : [Linguagem e Lógica de Programação]
 // Professor   : Carlos
-// Descrição   : Exercicio:09+
+// Descrição   : Questão 09
 // Autor(a)    : K. Santana
 // Data atual  : 13/09/2023
 Var
